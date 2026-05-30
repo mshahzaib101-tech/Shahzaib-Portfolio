@@ -9,6 +9,11 @@ I am a Software Engineering Student.
 - HTML
 - CSS
 - JavaScript
+- python programming
+- web development
+- Data Entry
+- Canva
+- Database Management system 
 
 ## Goal
 I want to become a Full Stack Web Developer and Freelancer.
