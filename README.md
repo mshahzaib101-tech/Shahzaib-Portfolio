@@ -26,4 +26,3 @@ I am a Software Engineering student passionate about web development and AI.
 
 * **Development:** Mastering MERN stack and AI/ML to build intelligent, high-performance web applications.
 * **Professional:** Establishing a career as a freelance developer providing scalable, real-world solutions.
-* 
