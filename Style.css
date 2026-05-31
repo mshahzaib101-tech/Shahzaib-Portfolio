@@ -8,82 +8,75 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    /* Light purple background */
-    background-color: #f4f0fa; 
-    color: #333;
+    /* Professional light grey background */
+    background-color: #eef2f3 !important; 
+    color: #2d3436;
     padding: 20px;
 }
 
-/* Container */
 .container {
     max-width: 850px;
     margin: 0 auto;
 }
 
-/* Header - Modern Gradient */
+/* Header - Dark Professional Blue */
 header {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    color: white;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
     padding: 40px;
     border-radius: 15px;
     text-align: center;
     margin-bottom: 30px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 header h1 { font-size: 2.5em; margin-bottom: 10px; }
-header p { font-size: 1.1em; opacity: 0.9; }
 
-/* Cards Section */
+/* General Card Styling */
 .card {
     background: white;
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-    border: 1px solid #e0d8f1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-h2 {
-    color: #6a11cb;
-    margin-bottom: 15px;
-    border-left: 5px solid #6a11cb;
-    padding-left: 15px;
-}
+h2 { margin-bottom: 15px; padding-left: 10px; }
+
+/* Section Colors (Har section ka alag color) */
+
+/* About Me - Green Theme */
+.about-section { border-left: 10px solid #27ae60; }
+.about-section h2 { color: #27ae60; }
+
+/* Skills - Orange Theme */
+.skills-section { border-left: 10px solid #f39c12; }
+.skills-section h2 { color: #f39c12; }
+
+/* Goals - Purple Theme */
+.goals-section { border-left: 10px solid #8e44ad; }
+.goals-section h2 { color: #8e44ad; }
+
+/* Projects - Red Theme */
+.projects-section { border-left: 10px solid #c0392b; }
+.projects-section h2 { color: #c0392b; }
 
 /* List Styling */
 .skills-list, .project-list, .card ul {
     list-style-type: none;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 
-.skills-list li, .card ul li {
+.card ul li {
     padding: 8px 0;
     border-bottom: 1px solid #f0f0f0;
 }
 
-.skills-list li::before {
-    content: "▹";
-    color: #6a11cb;
-    margin-right: 10px;
-    font-weight: bold;
-}
-
 /* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    color: #555;
-    font-size: 0.9em;
-}
+footer { text-align: center; padding: 20px; color: #636e72; }
+footer a { color: #2a5298; font-weight: bold; text-decoration: none; }
 
-footer a {
-    color: #6a11cb;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/* Responsive adjustment for mobiles */
+/* Responsive */
 @media (max-width: 600px) {
     header { padding: 20px; }
     h1 { font-size: 1.8em; }
